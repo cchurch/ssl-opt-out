@@ -16,7 +16,7 @@ relative_site_packages = os.path.relpath(sysconfig.get_python_lib(), sys.prefix)
 
 setup(
     name='ssl-opt-out',
-    version='0.9.0',
+    version='0.9.1',
     author='Chris Church',
     author_email='chris@ninemoreminutes.com',
     description='Opt-out of Python SSL certificate verification.',
