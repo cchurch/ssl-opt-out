@@ -1,1 +1,1 @@
-include README.md ssl_opt_out.py ssl_opt_out.pth
+include README.rst ssl_opt_out.py ssl_opt_out.pth

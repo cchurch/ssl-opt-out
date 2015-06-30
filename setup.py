@@ -17,7 +17,7 @@ setup(
     author='Chris Church',
     author_email='chris@ninemoreminutes.com',
     description='Opt-out of Python SSL certificate verification.',
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.md'),
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst'),
                           'rb').read().decode('utf-8'),
     license='BSD',
     keywords='python ssl',
