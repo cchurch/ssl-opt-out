@@ -3,6 +3,7 @@
 # Python
 import os
 import sys
+from distutils import sysconfig
 
 # Setuptools
 from setuptools import setup
@@ -10,6 +11,8 @@ from setuptools import setup
 extra = {}
 if sys.version_info >= (3,):
     extra['use_2to3'] = True
+
+relative_site_packages = os.path.relpath(sysconfig.get_python_lib(), sys.prefix)
 
 setup(
     name='ssl-opt-out',
@@ -23,7 +26,7 @@ setup(
     keywords='python ssl',
     url='https://github.com/cchurch/ssl-opt-out',
     py_modules=['ssl_opt_out'],
-    data_files=[('', ['ssl_opt_out.pth'])],
+    data_files=[(relative_site_packages, ['ssl_opt_out.pth'])],
     include_package_data=False,
     zip_safe=False,
     install_requires=[],
