@@ -1,3 +1,7 @@
+[![Build Status](http://img.shields.io/travis/cchurch/ssl-opt-out.svg)](https://travis-ci.org/cchurch/ssl-opt-out)
+[![PyPI Version](https://img.shields.io/pypi/v/ssl-opt-out.svg)](https://pypi.python.org/pypi/ssl-opt-out)
+[![Python Versions](https://img.shields.io/pypi/pyversions/ssl-opt-out.svg)](https://pypi.python.org/pypi/ssl-opt-out)
+
 SSL Opt-Out
 ===========
 
